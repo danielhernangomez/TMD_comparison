@@ -1,0 +1,3 @@
+cpu-bind=MASK - n2lcn0126, task  0  0 [4159103]: mask |BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB|  set
+Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: None
+slurmstepd: error: *** JOB 8554356 ON n2lcn0126 CANCELLED AT 2024-06-18T12:03:17 ***
