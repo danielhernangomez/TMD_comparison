@@ -54,7 +54,7 @@
     &BANDSTRUCTURE
       &GW
         NUM_TIME_FREQ_POINTS         30
-        MEMORY_PER_PROC               8
+        MEMORY_PER_PROC              50
         EPS_FILTER              1.0E-13
       &END
       &SOC
