@@ -1,5 +1,6 @@
 grep 'G0W0 direct band gap (eV)' */cp2k*
 
+1_MoS2_/cp2k.out: G0W0 direct band gap (eV):                                                2.437
 2_MoSe2/cp2k.out: G0W0 direct band gap (eV):                                                2.098
 3_WS2__/cp2k.out: G0W0 direct band gap (eV):                                                2.681
 4_WSe2_/cp2k.out: G0W0 direct band gap (eV):                                                2.302
@@ -7,6 +8,7 @@ grep 'G0W0 direct band gap (eV)' */cp2k*
 
 grep 'G0W0 indirect band gap (eV)' */cp2k*
 
+1_MoS2_/cp2k.out: G0W0 indirect band gap (eV):                                              2.437
 2_MoSe2/cp2k.out: G0W0 indirect band gap (eV):                                              2.098
 3_WS2__/cp2k.out: G0W0 indirect band gap (eV):                                              2.681
 4_WSe2_/cp2k.out: G0W0 indirect band gap (eV):                                              2.302
@@ -14,6 +16,7 @@ grep 'G0W0 indirect band gap (eV)' */cp2k*
 
 grep 'G0W0+SOC direct band gap (eV)' */cp2k*
 
+1_MoS2_/cp2k.out: G0W0+SOC direct band gap (eV):                                            2.354
 2_MoSe2/cp2k.out: G0W0+SOC direct band gap (eV):                                            1.984
 3_WS2__/cp2k.out: G0W0+SOC direct band gap (eV):                                            2.413
 4_WSe2_/cp2k.out: G0W0+SOC direct band gap (eV):                                            2.015
@@ -21,6 +24,7 @@ grep 'G0W0+SOC direct band gap (eV)' */cp2k*
 
 grep 'G0W0+SOC indirect band gap (eV)' */cp2k*
 
+1_MoS2_/cp2k.out: G0W0+SOC indirect band gap (eV):                                          2.354
 2_MoSe2/cp2k.out: G0W0+SOC indirect band gap (eV):                                          1.984
 3_WS2__/cp2k.out: G0W0+SOC indirect band gap (eV):                                          2.364
 4_WSe2_/cp2k.out: G0W0+SOC indirect band gap (eV):                                          1.956
