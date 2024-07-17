@@ -57,6 +57,7 @@
         MEMORY_PER_PROC              60
         EPS_FILTER              1.0E-13
         REGULARIZATION_RI        1.0E-2
+        CUTOFF_RADIUS_RI            7.0
       &END
       &SOC
       &END

@@ -3,7 +3,7 @@
 #SBATCH --exclusive
 #SBATCH --ntasks-per-node=16
 #SBATCH --cpus-per-task=8
-#SBATCH -N 6
+#SBATCH -N 20
 #SBATCH -J "WS2"
 #SBATCH --partition=largemem
 #SBATCH --account=hpc-prf-optgw

@@ -1,9 +1,9 @@
 #!/bin/bash
-#SBATCH -t 104:10:00
+#SBATCH -t 44:10:00
 #SBATCH --exclusive
 #SBATCH --ntasks-per-node=16
 #SBATCH --cpus-per-task=8
-#SBATCH -N 6
+#SBATCH -N 12
 #SBATCH -J "WS2"
 #SBATCH --partition=largemem
 #SBATCH --account=hpc-prf-coopfst
@@ -15,4 +15,4 @@ export OMP_PROC_BIND=true
 module reset
 module load chem/CP2K/2024.1-foss-2023b-gcc-openmpi-openblas-libgrpp
 
-srun   /pc2/groups/hpc-prf-metdyn/eprop2d1_Jan/02_compile_CP2K/46*/cp2k/exe/local/cp2k.psmp    *.inp &> cp2k.out
+srun   /pc2/groups/hpc-prf-metdyn/eprop2d1_Jan/02_compile_CP2K/52*/cp2k/exe/local/cp2k.psmp    *.inp &> cp2k.out
