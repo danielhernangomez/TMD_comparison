@@ -5,6 +5,7 @@
   &TIMINGS
      THRESHOLD 0.0001
   &END
+  PREFERRED_DIAG_LIBRARY SCALAPACK
 &END GLOBAL
 &FORCE_EVAL
   METHOD Quickstep
@@ -60,6 +61,7 @@
         CUTOFF_RADIUS_RI            7.0
       &END
       &SOC
+        ENERGY_WINDOW 40.0
       &END
       &BANDSTRUCTURE_PATH
         NPOINTS 19
