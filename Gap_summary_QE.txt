@@ -1,0 +1,14 @@
+Band gaps (PBE)
+
+1_MoS2 direct band gap (eV):                                               1.60
+2_MoSe2 direct band gap (eV):                                              1.34
+3_WS2 direct band gap (eV):                                                1.56
+4_WSe2 direct band gap (eV):                                               1.27
+
+
+Spin-orbit splitting valence band (K-point)
+
+1_MoS2  (eV):                                              0.149
+2_MoSe2 (eV):                                              0.186
+3_WS2   (eV):                                              0.427
+4_WSe2  (eV):                                              0.465
