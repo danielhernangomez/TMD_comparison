@@ -1,4 +1,4 @@
-Band gaps (PBE)
+Band gaps with SOC (PBE)
 
 1_MoS2 direct band gap (eV):                                               1.60
 2_MoSe2 direct band gap (eV):                                              1.34
